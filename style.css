@@ -16,11 +16,8 @@ html {
 body {
 	height: 100%;
 	/* background-color: var(--primary-color); */
-	background: linear-gradient(
-		45deg,
-		var(--primary-color),
-		var(--secondary-color)
-	);
+	background: rgb(254,255,72);
+background: linear-gradient(222deg, rgba(254,255,72,1) 0%, rgba(255,135,37,1) 100%);
 	font-family: "Poppins", sans-serif;
 	margin: 0;
 	background-repeat: no-repeat;
@@ -28,18 +25,15 @@ body {
 	position: relative;
 }
 
+
 header {
 	padding: 0.5rem;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	/* background-color: var(--secondary-color); */
-	background: linear-gradient(
-		-45deg,
-		var(--primary-color),
-		var(--secondary-color)
-	);
+	
+
 }
 
 header ul li {
@@ -66,7 +60,7 @@ header ul li:hover {
 
 .logo {
 	width: auto;
-	height: 50px;
+	height: 80px;
 }
 
 .git {
@@ -82,21 +76,20 @@ header ul li:hover {
 
 .search {
 	background-color: transparent;
-	border: 2px solid var(--primary-color);
+	border: 2px solid #000;
 	padding: 0.5rem 1rem;
 	border-radius: 50px;
-	color: #fff;
 	font-size: 1rem;
 	font-family: inherit;
 }
 
 .search:focus {
 	outline: 0;
-	background-color: var(--primary-color);
 }
 
 .search::placeholder {
-	color: #7378c5;
+	color: #000;
+
 }
 
 main {
@@ -112,7 +105,7 @@ main {
 	/* margin: 1rem; */
 	border-radius: 3px;
 	box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2);
-	background-color: var(--secondary-color);
+	background: #272525;
 	position: relative;
 	overflow: hidden;
 }
@@ -181,7 +174,7 @@ main {
 .tag {
 	color: white;
 	padding: 10px 20px;
-	background-color: #222550;
+	background-color: #000;
 	border-radius: 50px;
 	margin: 5px;
 	display: inline-block;
@@ -341,7 +334,7 @@ main {
 .gateremark {
 	margin-top: 0px;
 	display: inline-block;
-	color: #04b4e0;
+	color: #000;
 	position: absolute;
 	right: 5px;
 	/* text-decoration: none; */
